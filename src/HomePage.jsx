@@ -1,4 +1,4 @@
-import HeroPart from "./HeroPart.JSx"
+import HeroPart from "./HeroPart.jsx"
 export default function HomePage() {
     return (
         <div className=" flex items-center justify-center  px-16">
@@ -7,4 +7,4 @@ export default function HomePage() {
             </div>
         </div>
     )
-} 
+}
