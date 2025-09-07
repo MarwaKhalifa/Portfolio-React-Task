@@ -1,4 +1,3 @@
-import HeaderPart from "./HeaderPart"
 import HeroPart from "./HeroPart.JSx"
 export default function HomePage() {
     return (
@@ -8,4 +7,4 @@ export default function HomePage() {
             </div>
         </div>
     )
-}
+} 
