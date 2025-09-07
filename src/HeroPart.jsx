@@ -2,6 +2,7 @@ import person from './assets/person.png'
 import HeaderPart from './HeaderPart'
 import line from './assets/line.png'
 import GroupCircles from './assets/GroupCircles.png'
+import oval from './assets/Oval.png'
 export default function HeroPart() {
     return (
         <div className='relative z-10'>
@@ -24,6 +25,7 @@ export default function HeroPart() {
                 </div>
                 <img className='bg-[#242424] absolute top-0  md:right-0 lg:right-0 z-1 h-auto' src={person} alt="Adam Keyes" />
             </div>
+            <img src={oval} className='z-20 absolute bottom-[750px] right-[-50px] md:top-[500px] lg:right-[380px] lg:bottom-[170px]' />
             <img className='w-full  mt-32 md:mt-64 lg:mt-64 mb-32 ' src={line} alt="" />
         </div>
     )
